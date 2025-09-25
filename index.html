@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão: Refletindo sobre Inteligência Artificial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+    </div>
+
+    <div class="caixa-principal">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>IA Quiz</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="caixa-perguntas">
+            <div class="pergunta-header">
+                <span class="pergunta-numero">Pergunta 1/5</span>
+                <div class="timer">
+                    <i class="fas fa-clock"></i>
+                    <span>30s</span>
+                </div>
+            </div>
+            <h1 class="titulo-quiz">Quiz sobre Inteligência Artificial</h1>
+            <p class="pergunta-texto">Clique em iniciar para explorar o mundo da IA!</p>
+        </div>
+        
+        <div class="caixa-alternativas">
+            <button class="btn-iniciar" onclick="iniciarQuiz()">
+                <i class="fas fa-play"></i>
+                Iniciar Quiz
+            </button>
+        </div>
+        
+        <div class="caixa-resultado">
+            <div class="resultado-icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <p class="texto-resultado"></p>
+            <div class="resultado-detalhes">
+                <div class="stat-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="stat-value">0</span>
+                    <span class="stat-label">Acertos</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-percentage"></i>
+                    <span class="stat-value">0%</span>
+                    <span class="stat-label">Precisão</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star"></i>
+                    <span class="stat-value">0</span>
+                    <span class="stat-label">Pontos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Desenvolvido com ❤️ para Missão IA</p>
+        </div>
+    </div>
+
+    <div class="confetti-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
